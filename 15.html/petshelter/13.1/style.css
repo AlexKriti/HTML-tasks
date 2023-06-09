@@ -1,0 +1,270 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header a.logo {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+
+div.container {
+    max-width: 93.75%;
+    margin: 0 auto;
+}
+
+a.active {
+    border-bottom: #F1CDB3 3px solid;
+    font-weight: bold;
+}
+
+div.one {
+    display: inline-block;
+}
+
+div.one p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    width: 400px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    margin: 30px 0 30px;
+}
+
+nav {
+    margin: 16px 0 17px;
+}
+
+nav a {
+    margin-left: 35px;
+}
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    background-color: #F6F6F6;
+    padding: 80px 0 100px;
+}
+
+div.first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+div.pet {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+}
+
+div.pet h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #545454;
+    text-align: center;
+    margin: auto;
+}
+
+div.pet a {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    text-decoration: none;
+    color: #292929;
+    padding: 15px 45px;
+    border-radius: 100px;
+    border: #F1CDB3 2px solid;
+}
+
+div.amain {
+    margin: 30px;
+}
+
+nav.main {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    border-radius: 100%;
+    color: #292929;
+    width: 52px;
+    height: 52px;
+}
+
+button.before {
+    border: #CDCDCD 2px solid;
+    color: #CDCDCD;
+}
+
+button.center {
+    background-color: #F1CDB3;
+    border: #F1CDB3 2px solid;
+}
+
+button.after {
+    border: #F1CDB3 2px solid;
+}
+
+footer {
+    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+}
+
+div#o {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: #fff;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    height: 90px;
+}
+
+footer a {
+    color: rgba(241, 205, 179, 1);
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+div.footerone a,
+div.footertwo a {
+    display: block;
+}
+
+a.footerone {
+    margin: 30px 0 0;
+}
+
+a.footertwo {
+    margin: 40px 0 38px;
+}
+
+a.footeronee,
+a.footertwoo {
+    margin-bottom: 60px;
+}
+
+footer img {
+    max-height: 310px;
+    margin-top: auto;
+    margin-right: 20px
+}
+
+footer section {
+    display: inline-block;
+}
+
+a.footerone,
+a.footeronee {
+    text-align: center;
+}
+
+a.footerone section,
+a.footeronee section {
+    margin-bottom: 14px;
+}
+
+a.footerone img,
+a.footeronee img {
+    margin-top: 14px;
+}
+
+a.footeronee {
+    margin-top: 10px;
+}
+
+div.wrapper-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.wrapper-footer div {
+    text-align: left;
+}
+
+@media(max-width:880px) {
+    div#o {
+        display: block;
+        text-align: center
+    }
+
+    footer h2 {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+
+    footer{
+        background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+    }
+
+    main div.container{
+        max-width: 75.5%;
+    }
+
+    div.footerone a{
+        text-align: left;
+    }
+}
+
+@media(max-width:768px) {
+    div.container {
+        max-width: 92.18%;
+    }
+}
